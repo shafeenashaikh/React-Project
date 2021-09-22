@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Header/>
-      <h2>E-Commerce Project</h2>
+      {/* <h2>E-Commerce Project</h2> */}
       <Route path="/login">
         <Login/>
       </Route>
