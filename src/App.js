@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './Components/Header';
+// import Header from './Components/Header';
 import {BrowserRouter, Route} from 'react-router-dom'
 import Login from './Components/Login';
 import Register from './Components/Register';
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Header/>
+      {/* <Header/> */}
       {/* <h2>E-Commerce Project</h2> */}
       <Route path="/login">
         <Login/>
