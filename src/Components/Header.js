@@ -7,10 +7,12 @@ function Header(){
             <Navbar bg="dark" variant="dark">
                 <Navbar.Brand href=""> Navbar</Navbar.Brand>
                 <Nav className="mr-auto nav_bar_wrapper">
+                <Link to="/">ProductList</Link>
                     <Link to="/login">Login</Link>
                     <Link to="/register">Register</Link>
                     <Link to="/add">AddProduct</Link>
                     <Link to="/update">UpdateProduct</Link>
+                   
                 </Nav>
                 <Nav>
                     <NavDropdown title={'user Name'}>
