@@ -10,8 +10,9 @@ function Header(){
                 <Link to="/">ProductList</Link>
                     <Link to="/login">Login</Link>
                     <Link to="/register">Register</Link>
-                    <Link to="/add">AddProduct</Link>
-                    <Link to="/update">UpdateProduct</Link>
+                    <Link to="/add">Add Product</Link>
+                    <Link to="/update">Update Product</Link>
+                    <Link to="/search">Search Product</Link>
                    
                 </Nav>
                 <Nav>

@@ -6,6 +6,7 @@ import Register from './Components/Register';
 import AddProduct from './Components/AddProduct';
 import UpdateProduct from './Components/UpdateProduct';
 import ProductList from './Components/ProductList';
+import SearchProduct from './Components/SearchProduct';
 
 
 function App() {
@@ -28,9 +29,13 @@ function App() {
       <Route path="/update">
         <UpdateProduct/>
       </Route>
+      <Route path="/search">
+        <SearchProduct/>
+      </Route>
       <Route path="/">
         <ProductList/>
       </Route>
+     
      </Switch>
       </BrowserRouter>
     
