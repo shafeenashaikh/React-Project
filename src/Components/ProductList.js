@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import {Table} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 function ProductList(){
 
     function deleteOperation(){
@@ -32,6 +33,7 @@ function ProductList(){
                 <td>Quality product</td>
                 <td>70000</td>
                 <td><span  onClick={()=>{deleteOperation()}} className="delete">Delete</span></td>
+                <td><Link  to={"update/"}><span className="update">Update</span></Link></td>
             </tr>
             <tr>
                 <td>2</td>
@@ -40,6 +42,7 @@ function ProductList(){
                 <td>Apple product</td>
                 <td>60000</td>
                 <td><span onClick={()=>{deleteOperation()}} className="delete">Delete</span></td>
+                <td><Link to={"update/"}><span className="update">Update</span></Link></td>
             </tr>
             <tr>
                 <td>3</td>
@@ -48,6 +51,7 @@ function ProductList(){
                 <td>Quality product</td>
                 <td>10000</td>
                 <td><span onClick={()=>{deleteOperation()}} className="delete">Delete</span></td>
+                <td><Link to={"update/"}><span className="update">Update</span></Link></td>
             </tr>
         </tbody>
     </Table>
