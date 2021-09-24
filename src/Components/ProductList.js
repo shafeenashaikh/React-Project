@@ -16,6 +16,7 @@ function ProductList(){
             <th>Image</th>
             <th>Description</th>
             <th>Price</th>
+            <th>Operations</th>
             
             </tr>
          </thead>
@@ -26,6 +27,7 @@ function ProductList(){
                 <td><img src="C:\Users\intel\Desktop\1.jpg"/></td>
                 <td>Quality product</td>
                 <td>70000</td>
+                <td><span className="delete">Delete</span></td>
             </tr>
             <tr>
                 <td>2</td>
@@ -33,6 +35,7 @@ function ProductList(){
                 <td><img src="C:\Users\intel\Desktop\1.jpg"/></td>
                 <td>Apple product</td>
                 <td>60000</td>
+                <td><span className="delete">Delete</span></td>
             </tr>
             <tr>
                 <td>3</td>
@@ -40,6 +43,7 @@ function ProductList(){
                 <td><img src="C:\Users\intel\Desktop\1.jpg"/></td>
                 <td>Quality product</td>
                 <td>10000</td>
+                <td><span className="delete">Delete</span></td>
             </tr>
         </tbody>
     </Table>
